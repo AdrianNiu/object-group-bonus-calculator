@@ -85,7 +85,7 @@ function bonusCalculator(employee){
     totalCompensation: totalCompensation,
     totalBonus: totalBonus
   };
-  $('ul').append(`<li>Emplayee Name: ${employeeBonuses.name} --- Bonus %: ${employeeBonuses.bonusPercentage} --- Compensation: ${employeeBonuses.totalCompensation} --- Bonus: ${employeeBonuses.totalBonus}</li>`)
+  $('ul').append(`<li>Emplayee Name: ${employeeBonuses.name} --- Bonus %: ${employeeBonuses.bonusPercentage} --- Compensation: $${employeeBonuses.totalCompensation} --- Bonus: $${employeeBonuses.totalBonus}</li>`)
   return employeeBonuses
   
 }
